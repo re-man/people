@@ -2,6 +2,12 @@ People
 ======
 Algorithms related to detecting and tracking people using various robot sensors.
 
+Changes
+^^^^^^^^^^^^^
+Changed leg_detector.launch
+Line 3: args="scan:=base_scan -> args="scan:=scan"
+to make it work with Hokuyo UST-10LX
+
 Documentation
 ^^^^^^^^^^^^^
 http://ros.org/wiki/people
